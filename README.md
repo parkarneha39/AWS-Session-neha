@@ -17,6 +17,7 @@ SECRET_KEY=""
 ```
 
 -- domain = "http://localhost:3000"  (localhost basically means: “This computer. My own machine.” 3000 is port number. localhost is building and 3000 is apt number. Domain is just a variable storing the address of your app.)
+
 -- Publishable and Secret keys = create an account in stripe and acquire key and secret key
 
 3. Initialise and start the project
@@ -24,7 +25,7 @@ SECRET_KEY=""
 npm install
 npm run start
 ```
-
+-- to run npm command you need node.js package which installs npm CLI (command: brew install node)
 ### Set up an AWS EC2 instance
 
 1. Create an IAM user & login to your AWS Console
