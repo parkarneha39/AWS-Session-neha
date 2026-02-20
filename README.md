@@ -15,6 +15,10 @@ STATIC_DIR="./client"
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
+
+-- domain = "http://localhost:3000"  (localhost basically means: “This computer. My own machine.” 3000 is port number. localhost is apt and 3000 is apt number. Domain is just a variable storing the address of your app.)
+-- Publishable and Secret keys = create an account in stripe and acquire key and secret key
+
 3. Initialise and start the project
 ```
 npm install
