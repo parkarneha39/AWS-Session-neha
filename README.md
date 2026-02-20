@@ -16,16 +16,17 @@ PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
 
--- domain = "http://localhost:3000"  (localhost basically means: “This computer. My own machine.” 3000 is port number. localhost is building and 3000 is apt number. Domain is just a variable storing the address of your app.)
+>domain = "http://localhost:3000"  (localhost basically means: “This computer. My own machine.” 3000 is port number. localhost is building and 3000 is apt number. Domain is just a variable storing the address of your app.)
 
--- Publishable and Secret keys = create an account in stripe and acquire key and secret key
+>Publishable and Secret keys = create an account in stripe and acquire key and secret key
 
 3. Initialise and start the project
 ```
 npm install
 npm run start
 ```
--- to run npm command you need node.js package which installs npm CLI (command: brew install node)
+>to run npm command you need node.js package which installs npm CLI (command: brew install node)
+
 ### Set up an AWS EC2 instance
 
 1. Create an IAM user & login to your AWS Console
@@ -65,6 +66,8 @@ PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
 > For this project, we'll have to set up an [Elastic IP Address](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) for our EC2 & that would be our `DOMAIN`
+
+> Add 3000 as Inbound rule in your Security Group attached to your EC2 instance. 
 
 3. Initialise and start the project
 ```
